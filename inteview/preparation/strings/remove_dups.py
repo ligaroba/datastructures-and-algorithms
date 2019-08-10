@@ -50,18 +50,18 @@ def removeDuplicatesFromString(str2):
     # keeps track of length of resultant string
     length = 0;
     while (i < size):
-        x = ord(str1[i])-97 ;
+        x = ord(str1[i])-97;
         print(counter , "     "  , x, str1[i])
         # check if Xth bit of counter is unset
         if ((counter & (1 << x)) == 0):
             str1[length] = chr(x+97);
             # mark current character as visited
-            counter =counter |  (1 << x);
-            length += 1;
-        i += 1;
+            counter =counter |  (1 << x)
+            length += 1
+        i += 1
 
-    str2 = ''.join(str1);
-    return str2[0:length];
+    str2 = ''.join(str1)
+    return str2[0:length]
 # Driver code
-str1 = "geeksforgeeks";
+str1 = "geeksforgeeks"
 print(removeDuplicatesFromString(str1));

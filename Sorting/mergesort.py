@@ -1,6 +1,7 @@
 import math
 
 def divideArray(dataArray):
+
     arrSize=len(dataArray)
     if arrSize==1:
         return # list of one item is considered sorted
@@ -20,30 +21,38 @@ def divideArray(dataArray):
 
 
 def mergesort(leftArray,rightArray,dataArray):
+    print(leftArray,rightArray)
     i=j=k=0
-
     while j<len(leftArray) and i<len(rightArray):
 
         if(rightArray[i]<leftArray[j]):
             dataArray[k]=rightArray[i]
-            print(dataArray[k]," :  ",leftArray[j]," < ",rightArray[i])
+            #print(dataArray[k]," :  ",leftArray[j]," < ",rightArray[i])
             i+=1
         else:
             dataArray[k]=leftArray[j]
-            print(dataArray[k],": ",rightArray[i]," >  " , leftArray[j])
+            #print(dataArray[k], ": ", rightArray[i], " >  ", leftArray[j])
             j+=1
         k+=1
 
     # Checking if any is left
     while i<len(rightArray):
         dataArray[k]=rightArray[i]
+        # print("right ",rightArray)
+        #
         i+=1
         k+=1
+
+
     while j < len(leftArray):
         dataArray[k] = leftArray[j]
+        # print("left" , leftArray)
+
         j += 1
         k += 1
+    print(dataArray)
 
 data=[54,26,93,17,77,31,44,55,20]
-print(divideArray(data))
+
+divideArray(data)
 

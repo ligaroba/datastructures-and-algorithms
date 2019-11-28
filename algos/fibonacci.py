@@ -12,7 +12,9 @@ def fib(num):
     elif num==1 :
       return 1
     else :
+        #print(num)
         return fib(num-1) + fib(num-2)
 
-num=9
+
+num=50
 print(fib(num))

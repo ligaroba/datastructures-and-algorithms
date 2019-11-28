@@ -1,5 +1,6 @@
 def reverse(s):
-    print(s[::-1])
+    print("reversed ",s[::-1])
+    print("original ", s)
     return s[::-1]#O(1)
 
 def palindrome(s):
@@ -8,6 +9,20 @@ def palindrome(s):
         print("True")#O(1)
     else :
         print("False") #O(1)
+
+
+s='Hi Robert'
+
+def sentence_count(s):
+    sarray=[]
+    for word in s:
+        if word !=' ':
+            sarray.append(word)
+    return len(sarray)
+
+
+
+
 
 
 
@@ -20,7 +35,10 @@ def  recusPalindrome(word,start,end):
          return False
      elif (start<end+1):
          print("recusPalindrome: word[start] : " + word[start] +" word[end]: " +word[end] +" "+ word + " start : " + str(start) + " end : " + str(end))
+         #print(start,end)
          return recusPalindrome(word,start+1,end-1)
+
+
 
 
 def isPalindrome(word):
@@ -44,7 +62,7 @@ s3="kabisa"
 if isPalindrome(s2) or isPalindrome(s)==None :
     print("True")
 else:
-    print("Falsee")
+    print("False")
 
 
-palindrome(s2)
+palindrome(s3)

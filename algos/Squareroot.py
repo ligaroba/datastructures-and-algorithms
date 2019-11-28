@@ -19,7 +19,7 @@ def sqroot(num):
                 print(end)
                 print(" No square root  " + str(num))
 
+for i in range(1,100,81%)
 
-
-inum=33
+inum=9
 sqroot(inum)

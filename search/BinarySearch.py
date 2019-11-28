@@ -19,4 +19,28 @@
  NP : Non - deterministic polynomial  eg factorization , travel salesman
 
 """
+pos=-1
+def binary_search(data,num):
+    #key : the number to search
+    n=len(data)
+    lower=0
+    upper=n-1
+    while lower<=upper:
+            mid=(lower+upper)//2
+            if num==data[mid]:
+                globals()['pos']=mid
+                return True
+            elif num<data[mid]:
+                upper=mid-1
+            else:
+                lower=mid+1
+    return False
+
+data=[17, 20, 26, 31, 44, 54, 55, 77, 93]
+
+if binary_search(data,93):
+    print(str(data[pos]) +" found at position "+ str(pos+1) + " of " + str(data))
+else:
+    print("Number not found " )
+
 

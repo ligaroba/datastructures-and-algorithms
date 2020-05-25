@@ -1,0 +1,12 @@
+#Business Requirment (Interface segregation principle- SIP)
+# Version 1.0
+
+The team needs to implement an exportable document: payslip.
+It should contain the following information:
+- month of income
+- name of employee
+- income of employee
+- income of employee for the given month
+
+At the moment we just want to export as a text but it might be
+possibe to extend this to other formats.

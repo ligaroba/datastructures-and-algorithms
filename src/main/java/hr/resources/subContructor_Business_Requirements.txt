@@ -1,0 +1,22 @@
+#Busisness Requirement Document (Liskov Substitution Principle)
+#Version 1.0
+
+A
+
+A susbcontrator is an entity that works similiar toe an empployee for
+various projects. we need to implement this feature because in most
+comapnies employees work with external collaborators.
+
+We are intrested in the contact info (name, Own email),
+cost (Monthly income) and nb of hours worked.
+
+They need to have an SLA approved before working.
+
+Because subcontractors are extrenal, they are not eligible
+to time off. Nor do we need to calculate taxes for them.
+
+
+#Bad design
+
+- Creating a class Subcontructor that extends employees
+  since he cant take time off and he has an SLA which needs to be approved.

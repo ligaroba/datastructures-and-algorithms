@@ -1,0 +1,8 @@
+#Business Requirement (Dependancy Inversion Principle - DIP)
+#version 2.0
+We need a system that can retrieve all employees and pay their incomes.
+
+Upon completion, the total paid amount must be calulated in order to compare it with finance
+department.
+
+Each employee should recieve an email after the income payment was sent successfully.

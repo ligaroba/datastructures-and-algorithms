@@ -12,7 +12,6 @@ This repo has two branches
 5. Dynamic programming 
 6. BitWise programming 
 
-
 ###### Design Patterns Concepts
 1. Creational
 2. Structural 

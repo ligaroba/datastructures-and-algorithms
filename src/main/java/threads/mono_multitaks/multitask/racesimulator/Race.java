@@ -1,11 +1,11 @@
 package threads.mono_multitaks.multitask.racesimulator;
-import threads.mono_multitaks.multitask.racesimulator.Runner;
+import threads.priority.RunnerRace;
 
 public class Race {
     public static void main(String[] args) {
         System.out.println(" Passing ");
-        Runner jean = new Runner("Jean");
-        Runner paul = new Runner("Paul");
+        RunnerRace jean = new RunnerRace("Jean");
+        RunnerRace paul = new RunnerRace("Paul");
         jean.start();
         paul.start();
 

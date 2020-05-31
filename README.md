@@ -1,10 +1,10 @@
-###### ``DATA STRUCTURES AND ALGORITHMS JAVA
+# DATA STRUCTURES AND ALGORITHMS JAVA
 
 This repo has two branches
 1. master
 2. algorithms-java  
 
-DS Areas covered 
+###### DS Areas covered 
 1. Arrays Search and Sorting Algorithms 
 2. Graphs and Trees 
 3. Mathematical problems e.g Margic Square 
@@ -13,7 +13,7 @@ DS Areas covered
 6. BitWise programming 
 
 
-Design Patterns Concepts 
+###### Design Patterns Concepts
 1. Creational
 2. Structural 
 3. Behavioral Design 

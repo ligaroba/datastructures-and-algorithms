@@ -14,6 +14,7 @@ DS Areas covered
 
 
 Design Patterns Concepts 
-1. Creational/Structural 
-2. Behavioral Design 
-3. SOLID Principles : Appying SRP/OCP/LSP/ISP/DIP
+1. Creational
+2. Structural 
+3. Behavioral Design 
+4. SOLID Principles : Appying SRP/OCP/LSP/ISP/DIP

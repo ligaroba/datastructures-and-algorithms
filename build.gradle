@@ -13,6 +13,7 @@ dependencies {
     testCompile group: 'org.hamcrest', name: 'hamcrest-library', version: '2.2'
     testCompile group: 'org.apache.derby', name: 'derby', version: '10.2.2.0'
     compile group: 'org.apache.derby', name: 'derbyclient', version: '10.2.2.0'
+    compile group: 'org.apache.derby', name: 'derby', version: '10.2.2.0'
 }
 
 test {
